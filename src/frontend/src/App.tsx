@@ -7,6 +7,7 @@ import {
   createRouter,
 } from "@tanstack/react-router";
 import { useState } from "react";
+import ChatBot from "./components/ChatBot";
 import ContactSection from "./components/ContactSection";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 import Footer from "./components/Footer";
@@ -56,6 +57,7 @@ function MainSitePage() {
         preSelectedService={preSelectedService}
       />
       <FloatingWhatsApp />
+      <ChatBot />
     </div>
   );
 }
